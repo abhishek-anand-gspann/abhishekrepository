@@ -23,7 +23,7 @@ public class Flipkart {
 		  driver.findElement(By.xpath("//div[@class='_1oaFsP']/ul/li[1]/button")).click();
 		  driver.findElement(By.xpath("//div[@class='row']/a")).click();
 		  driver.findElement(By.xpath("//td[@class='product-action fk-font-11']/div[2]")).click();
-		  System.out.println("Product has been removed from your cart");
+		  System.out.println("Product has been removed from your cart....");
 		  driver.quit();
 		  
 		   
