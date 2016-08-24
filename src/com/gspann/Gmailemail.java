@@ -25,7 +25,7 @@ public class Gmailemail {
 	driver.findElement(By.xpath("//div[@class='T-I J-J5-Ji T-I-KE L3']")).click();
 	driver.findElement(By.xpath("//div[@class='wO nr l1']/textarea")).sendKeys("abhishek.anand@gspann.com");
 	System.out.println("receipent entered");
-	driver.findElement(By.xpath("//div[@class='aoD az6']/input")).sendKeys("Automated Email Abhishek Anand");
+	driver.findElement(By.xpath("//div[@class='aoD az6']/input")).sendKeys("Automated Email Abhishek Anand.......");
 	driver.findElement(By.xpath("//div[@class='Am Al editable LW-avf']")).sendKeys("Hi Shubham, This is an automated email sent to you by Abhishek.");
 	driver.findElement(By.xpath("//div[@class='T-I J-J5-Ji aoO T-I-atl L3']")).click();
 	//driver.quit();
