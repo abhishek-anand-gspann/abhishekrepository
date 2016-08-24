@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regsuite">
+
+<tests>
+<test name ="LoginTest">
+<classes>
+
+<class name = "p1.C1Test"> </class>
+<class name = "p2.C2Test"></class>
+
+
+
+</classes>
+</test>
+</tests>
+</suite>   
